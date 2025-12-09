@@ -52,9 +52,9 @@ It reflects capabilities relevant for **mobile app developer**, **streaming app 
 
 ## 📱 Screenshots
 
-| Home Screen | Main View | Player View | Search Interface |
-|--------------|--------------|--------------|------------------|
-| ![Home](screenshots/home.jpg) | ![Main](screenshots/main.jpg) | ![Player](screenshots/player.jpg) | ![Search](screenshots/search.jpg) |
+| Home Screen | Player View | Search Interface |
+|--------------|--------------|------------------|
+| ![Home](screenshots/home.jpg) | ![Player](screenshots/player.jpg) | ![Search](screenshots/search.jpg) |
 
 
 ---
