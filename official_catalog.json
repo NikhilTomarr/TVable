@@ -1,0 +1,367 @@
+{
+  "providerName": "NetX Official Master Catalog",
+  "version": 1,
+  "liveEvents": [
+    {
+      "id": "evt_live_101",
+      "title": "IND vs AUS • World Cup Final Live",
+      "category": "live_match",
+      "status": "LIVE",
+      "isSpotlight": true,
+      "posterUrl": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=800&q=80",
+      "backdropUrl": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=1280&q=80",
+      "servers": [
+        {
+          "name": "Server 1 (ExoPlayer HLS 1080p)",
+          "type": "exo",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8",
+          "headers": {
+            "User-Agent": "NetXPlayer/3.0"
+          }
+        },
+        {
+          "name": "Server 2 (YouTube Live Embed)",
+          "type": "yt",
+          "videoId": "5qap5aO4i9A"
+        }
+      ]
+    },
+    {
+      "id": "evt_live_102",
+      "title": "Real Madrid vs Barcelona • El Clásico",
+      "category": "live_match",
+      "status": "UPCOMING",
+      "isSpotlight": false,
+      "posterUrl": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&q=80",
+      "backdropUrl": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=1280&q=80",
+      "servers": [
+        {
+          "name": "Server 1 (Preview Stream)",
+          "type": "exo",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        }
+      ]
+    },
+    {
+      "id": "evt_hl_201",
+      "title": "Final Over Thriller • Last 6 Balls Highlights",
+      "category": "highlight",
+      "status": "HIGHLIGHT",
+      "isSpotlight": false,
+      "posterUrl": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=800&q=80",
+      "backdropUrl": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=1280&q=80",
+      "servers": [
+        {
+          "name": "Watch Highlight (YouTube Custom UI)",
+          "type": "yt",
+          "videoId": "aqz-KE-bpKQ"
+        },
+        {
+          "name": "Watch Highlight (Direct MP4)",
+          "type": "exo",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+        }
+      ]
+    },
+    {
+      "id": "evt_hl_202",
+      "title": "Top 10 Goals of the Tournament • 4K",
+      "category": "highlight",
+      "status": "HIGHLIGHT",
+      "isSpotlight": false,
+      "posterUrl": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800&q=80",
+      "backdropUrl": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1280&q=80",
+      "servers": [
+        {
+          "name": "Server 1 (Direct Fast)",
+          "type": "exo",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+        }
+      ]
+    }
+  ],
+  "catalog": [
+    {
+      "tmdbId": 801688,
+      "type": "movie",
+      "isSpotlight": true,
+      "customCategory": "South",
+      "rightsInfo": "Public Domain / Official YouTube Embed",
+      "servers": [
+        {
+          "name": "Server 1 (YouTube Custom Player)",
+          "type": "yt",
+          "videoId": "kQDd1AhGIHk"
+        },
+        {
+          "name": "Server 2 (ExoPlayer 1080p HLS)",
+          "type": "exo",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0"
+          }
+        }
+      ]
+    },
+    {
+      "tmdbId": 872906,
+      "type": "movie",
+      "isSpotlight": true,
+      "customCategory": "Bollywood",
+      "rightsInfo": "Official API Embed / Promotional Stream",
+      "servers": [
+        {
+          "name": "Server 1 (YouTube HD)",
+          "type": "yt",
+          "videoId": "COv52Qyctws"
+        },
+        {
+          "name": "Server 2 (Direct MP4)",
+          "type": "exo",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+        }
+      ]
+    },
+    {
+      "tmdbId": 533535,
+      "type": "movie",
+      "isSpotlight": true,
+      "customCategory": "Hollywood",
+      "rightsInfo": "Public Domain / Official Embed",
+      "servers": [
+        {
+          "name": "Server 1 (YouTube 4K)",
+          "type": "yt",
+          "videoId": "73_1biulkYk"
+        },
+        {
+          "name": "Server 2 (ExoPlayer Fast)",
+          "type": "exo",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+        }
+      ]
+    },
+    {
+      "tmdbId": 579974,
+      "type": "movie",
+      "isSpotlight": false,
+      "customCategory": "South",
+      "rightsInfo": "Public Domain / Official Embed",
+      "servers": [
+        {
+          "name": "Server 1 (YouTube HD)",
+          "type": "yt",
+          "videoId": "f_vbAtFSEc0"
+        },
+        {
+          "name": "Server 2 (ExoPlayer Direct)",
+          "type": "exo",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+        }
+      ]
+    },
+    {
+      "tmdbId": 872585,
+      "type": "movie",
+      "isSpotlight": false,
+      "customCategory": "Hollywood",
+      "rightsInfo": "Public Domain / Official Embed",
+      "servers": [
+        {
+          "name": "Server 1 (YouTube HD)",
+          "type": "yt",
+          "videoId": "uYPbbksJxIg"
+        },
+        {
+          "name": "Server 2 (ExoPlayer Direct)",
+          "type": "exo",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        }
+      ]
+    },
+    {
+      "tmdbId": 690957,
+      "type": "movie",
+      "isSpotlight": false,
+      "customCategory": "South",
+      "rightsInfo": "Public Domain / Official Embed",
+      "servers": [
+        {
+          "name": "Server 1 (YouTube HD)",
+          "type": "yt",
+          "videoId": "Q1NKMPhP8PY"
+        }
+      ]
+    },
+    {
+      "tmdbId": 784651,
+      "type": "movie",
+      "isSpotlight": false,
+      "customCategory": "Bollywood",
+      "rightsInfo": "Public Domain / Official Embed",
+      "servers": [
+        {
+          "name": "Server 1 (YouTube HD)",
+          "type": "yt",
+          "videoId": "vqu4z34wENw"
+        }
+      ]
+    },
+    {
+      "tmdbId": 84254,
+      "type": "tv",
+      "isSpotlight": true,
+      "customCategory": "Bollywood",
+      "rightsInfo": "Official Series Embed",
+      "seasons": {
+        "1": {
+          "1": [
+            {
+              "name": "Server 1 (ExoPlayer 1080p)",
+              "type": "exo",
+              "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+            },
+            {
+              "name": "Server 2 (YouTube Custom Player)",
+              "type": "yt",
+              "videoId": "ZNeGF-PvRHY"
+            }
+          ],
+          "2": [
+            {
+              "name": "Server 1 (ExoPlayer 1080p)",
+              "type": "exo",
+              "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+            }
+          ],
+          "3": [
+            {
+              "name": "Server 1 (ExoPlayer 1080p)",
+              "type": "exo",
+              "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            }
+          ]
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Server 1 (Season 2 Premiere)",
+              "type": "exo",
+              "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8"
+            }
+          ],
+          "2": [
+            {
+              "name": "Server 1 (YouTube HD)",
+              "type": "yt",
+              "videoId": "xMKzdQrC5TI"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "tmdbId": 93405,
+      "type": "tv",
+      "isSpotlight": false,
+      "customCategory": "K-Drama",
+      "rightsInfo": "Official K-Drama Embed",
+      "seasons": {
+        "1": {
+          "1": [
+            {
+              "name": "Server 1 (YouTube HD)",
+              "type": "yt",
+              "videoId": "oqxAJKy0ii4"
+            },
+            {
+              "name": "Server 2 (ExoPlayer Direct)",
+              "type": "exo",
+              "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+            }
+          ],
+          "2": [
+            {
+              "name": "Server 1 (ExoPlayer Direct)",
+              "type": "exo",
+              "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "tmdbId": 95479,
+      "type": "tv",
+      "isSpotlight": false,
+      "customCategory": "Anime",
+      "rightsInfo": "Official Anime Embed",
+      "seasons": {
+        "1": {
+          "1": [
+            {
+              "name": "Server 1 (Anime HD YouTube)",
+              "type": "yt",
+              "videoId": "4A_X-Dvl0ws"
+            },
+            {
+              "name": "Server 2 (ExoPlayer Direct)",
+              "type": "exo",
+              "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+            }
+          ],
+          "2": [
+            {
+              "name": "Server 1 (ExoPlayer Direct)",
+              "type": "exo",
+              "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "tmdbId": 101352,
+      "type": "tv",
+      "isSpotlight": false,
+      "customCategory": "Bollywood",
+      "rightsInfo": "Official Series Embed",
+      "seasons": {
+        "1": {
+          "1": [
+            {
+              "name": "Server 1 (YouTube HD)",
+              "type": "yt",
+              "videoId": "mojZJ7oeD_g"
+            }
+          ],
+          "2": [
+            {
+              "name": "Server 1 (ExoPlayer Direct)",
+              "type": "exo",
+              "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "tmdbId": 66732,
+      "type": "tv",
+      "isSpotlight": false,
+      "customCategory": "Hollywood",
+      "rightsInfo": "Official Series Embed",
+      "seasons": {
+        "1": {
+          "1": [
+            {
+              "name": "Server 1 (YouTube HD)",
+              "type": "yt",
+              "videoId": "b9EkMc79ZSU"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
