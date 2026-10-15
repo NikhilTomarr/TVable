@@ -317,7 +317,29 @@
               "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
             }
           ]
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Server 1 (Anime HD YouTube)",
+              "type": "yt",
+              "videoId": "4A_X-Dvl0ws"
+            },
+            {
+              "name": "Server 2 (ExoPlayer Direct)",
+              "type": "exo",
+              "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+            }
+          ],
+          "2": [
+            {
+              "name": "Server 1 (ExoPlayer Direct)",
+              "type": "exo",
+              "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+            }
+          ]
         }
+        
       }
     },
     {
