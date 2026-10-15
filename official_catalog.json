@@ -12,7 +12,7 @@
       "backdropUrl": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=1280&q=80",
       "servers": [
         {
-          "name": "Server 1 (ExoPlayer HLS 1080p)",
+          "name": "Server 1 (ExoPlayer HLS 100p)",
           "type": "exo",
           "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8",
           "headers": {
