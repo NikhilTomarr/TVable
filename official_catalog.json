@@ -22,7 +22,7 @@
         {
           "name": "Server 2 (YouTube Live Embed)",
           "type": "yt",
-          "videoId": "yRYvLFLdgk0"
+          "videoId": "https://www.youtube.com/watch?v=FZQylFVLGjM"
         }
       ]
     },
@@ -54,7 +54,7 @@
         {
           "name": "Watch Highlight (YouTube Custom UI)",
           "type": "yt",
-          "videoId": "aqz-KE-bpKQ"
+          "videoId": "https://www.youtube.com/watch?v=FZQylFVLGjM"
         },
         {
           "name": "Watch Highlight (Direct MP4)",
